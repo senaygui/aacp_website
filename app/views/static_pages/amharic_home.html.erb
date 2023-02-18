@@ -1,0 +1,628 @@
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center justify-content-between">
+     <%= image_tag "logo1.png", size: "70x70", align:"left"%>
+     <h6 style="color:white;">የአዲስ አበባ ግንባታ ፈቃድና ቁጥጥር ባለሥልጣን</h6>
+     <!-- Uncomment below if you prefer to use an image logo -->
+     <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+     <nav id="navbar" class="navbar">
+      <ul>
+        <li><a class="nav-link scrollto active" href="#hero">መነሻ</a></li>
+        <li><a class="nav-link scrollto" href="#about">ለማመልከት የሚያስፈልጉ</a></li>
+        <li><a class="nav-link scrollto" href="#services">አገልግሎቶች</a></li>
+        <li><a class="nav-link  scrollto" href="#portfolio">ምስሎች</a></li>
+        <li><a class="nav-link scrollto" href="#team">አመራር ቡድኖች</a></li>
+        <li class="dropdown"><a href="#"><span>ማስታወቂያዎች</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+
+           <li><a href="#">ዜና</a></li>
+           <li><a href="#">ክስተቶች</a></li>
+           <li><a href="#">ክፍት የስራ ቦታ</a></li>
+           <li><a href="#">ጨረታ</a></li>
+         </ul>
+       </li>
+       <li class="dropdown"><a href="#"><span>ምንጭ</span> <i class="bi bi-chevron-down"></i></a>
+        <ul>
+          <li><a href="#">ማመልከቻ ቅፆች</a></li>
+          <li><a href="#">መመሪያ</a></li>
+          <li><a href="#">አስፈላጊ መስፈርቶች</a></li>
+          <li><a href="assets/1.mp4">አጋዥ ቪዲዮዎች</a></li>
+          <li><a href="<%= asset_path('slide-4.jpg')%>">መዋቅር</a></li>
+        </ul>
+      </li>
+      <li><a class="nav-link scrollto" href="#contact">አድራሻ</a></li>
+      <li class="dropdown"><a href="#"><span>ቋንቋ</span> <i class="bi bi-chevron-down"></i></a>
+        <ul>
+          <li><a href="index.html">እንግሊዘኛ</a></li>
+          <li><a href="index_amharic.html">አማርኛ</a></li>
+          <li><a href="index_oromia.html">ኦሮምኛ</a></li>
+        </ul>
+      </ul>
+    </ul>
+    <i class="bi bi-list mobile-nav-toggle"></i>
+  </nav><!-- .navbar -->
+
+</div>
+</header><!-- End Header -->
+
+<!-- ======= Hero Section ======= -->
+<section id="hero">
+  <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+    <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+    <div class="carousel-inner" role="listbox">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active" style="background-image: url(<%= asset_path('slide-1.jpg')%>)">
+        <div class="carousel-container">
+          <div class="container">
+            <h2 class="animated fadeInDown">እንኳን ወደ<span>ግንባታ ፈቃድ እና ቁጥጥር ባለስልጣን በደህና መጡ፡:</span></h2>
+            <p class="animated fadeInUp">ይህንን ድህረ ገፅ ስለጎበኙ እናመሰግናለን፡፡ የሚፈልጉትን የግንባታ ፈቃድ እና ቁጥጥር መረጃዎች ካሉበት ቦታ እንደሚያገኙ ተስፋ አለን፡፡</p>
+            <a href="https://business.gov.et" class="btn-get-started animated fadeInUp scrollto">ሂደቱን ያስጀምሩ</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item" style="background-image: url(<%= asset_path('slide-2.jpg')%>)">
+        <div class="carousel-container">
+          <div class="container">
+            <h2 class="animated fadeInDown">ለማመልከት የሚያስፈልጉ</h2>
+            <p class="animated fadeInUp">የማጠናከሪያ ቪዲዮዎችን በመረጃ ምንጭ ሜኑ ላይ ያገኛሉ ለግንባታ ፈቃድ ፣ለጀማሪ ፈቃድ ፣የግንባታ ፈቃድ እንዴት እንደሚያመለክቱ ሁሉንም አስፈላጊ ሂደቶች ያሳየዎታል ወዘተ...</p>
+            <a href="https://business.gov.et" class="btn-get-started animated fadeInUp scrollto">ሂደቱን ያስጀምሩ</a>
+          </div>
+        </div>
+      </div>
+      <!-- Slide 3 -->
+      <div class="carousel-item" style="background-image: url(<%= asset_path('slide-3.jpg')%>)">
+        <div class="carousel-container">
+          <div class="container">
+           <h2 class="animated fadeInDown">መሰረታዊ የግንባታ ፈቃድ መመሪያዎች</h2>
+           <p class="animated fadeInUp">በመረጃ ምንጭ ሜኑ ላይ ያገኛሉ</p>
+           <a href="https://business.gov.et" class="btn-get-started animated fadeInUp scrollto">ሂደቱን ያስጀምሩ</a>
+         </div>
+       </div>
+     </div>
+
+     <!-- Slide 4 -->
+     <div class="carousel-item" style="background-image: url(<%= asset_path('slide-4.jpg')%>)">
+      <div class="carousel-container">
+        <div class="container">
+          <h2 class="animated fadeInDown">ለማመልከት የሚያስፈልጉ</h2>
+          <p class="animated fadeInUp">የማጠናከሪያ ቪዲዮዎችን በመረጃ ምንጭ ሜኑ ላይ ያገኛሉ ለግንባታ ፈቃድ ፣ለጀማሪ ፈቃድ ፣የግንባታ ፈቃድ እንዴት እንደሚያመለክቱ ሁሉንም አስፈላጊ ሂደቶች ያሳየዎታል ወዘተ...</p>
+          <a href="https://business.gov.et" class="btn-get-started animated fadeInUp scrollto">ሂደቱን ያስጀምሩ</a>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 5 -->
+    <div class="carousel-item" style="background-image: url(<%= asset_path('slide-5.jpg')%>)">
+      <div class="carousel-container">
+        <div class="container">
+          <h2 class="animated fadeInDown">እንኳን ወደ<span>ግንባታ ፈቃድ እና ቁጥጥር ባለስልጣን በደህና መጡ፡፡</span></h2>
+          <p class="animated fadeInUp">ገጻችንን ስለጎበኙ እናመሰግናለን። እድሎችን እና የመረጃ ፍላጎቶችን እንደሚመረምሩ ተስፋ እናደርጋለን::</p>
+          <a href="https://business.gov.et" class="btn-get-started animated fadeInUp scrollto">ሂደቱን ያስጀምሩ</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+  </a>
+  <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+  </a>
+
+</div>
+</section><!-- End Hero -->
+
+<main id="main">
+
+  <!-- ======= About Section ======= -->
+
+
+  <section id="about" class="about">
+    <div class="container-fluid">
+      <div class="section-title">
+        <h3>ለማመልከት <span>የሚያስፈልጉ</span></h3>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-sm-3 col-md-6 col-lg-4 video-box d-flex justify-content-left position-relative" controls poster="/images/slide/slide-1.jpg">
+          <a href="https://youtu.be/UNpCbDuDuLE" class="glightbox play-btn mb-4"></a>
+        </div>
+
+        <div class="col-md-5 col-md-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+          <h3>ለግንባታ ፈቃድ ለማመልከት መስፈርቶች</h3>
+          <p>ለሁሉም አገልግሎቶቻችን ለማመልከት 3 ቀላል ደረጃዎች</p>
+
+          <div class="icon-box">
+           <%= image_tag("registration.png", size: "70x70",align: "left" )%>
+           <h4 class="title"><a href="">ምዝገባ</a></h4>
+           <p class="description">ወደ ቢዝነስ ፖርታል ይመዝገቡ እና ስልክ ቁጥርዎን ተጠቅመው ይግቡ</p>
+         </div>
+
+         <div class="icon-box">
+          <%= image_tag("dealing.png", size: "70x70",align: "left" )%>
+          <h4 class="title"><a href="">የግንባታ ፈቃድን መስተንግዶ</a></h4>
+          <p class="description">ከግንባታ ፈቃድ ጋር መገናኘትን ጠቅ ያድርጉ ፣ የእርስዎን ሁኔታ ይምረጡ እና "እስማማለሁ እና አመልክት"ን ይጫኑ።</p>
+        </div>
+
+        <div class="icon-box">
+          <%= image_tag("form.png", size: "70x70",align: "left" )%>
+          <h4 class="title"><a href="">የማመልከቻ ቅጽዎን ይምረጡ</a></h4>
+          <p class="description">የማመልከቻ ቅጽዎን ይምረጡ እና በህንፃ ዲዛይን መረጃዎ ላይ በመመስረት ቅጹን ይሙሉ።</p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section><!-- End About Section -->
+
+
+<!-- ======= Services Section ======= -->
+<section id="services" class="services">
+  <div class="container-fluid">
+
+    <div class="section-title">
+      <h3>የኛ <span>አገልግሎቶች</span></h3>
+      <p>ለደንበኞቻችን የምንሰጣቸው 7 አገልግሎቶች ይህን ይመስላሉ::</p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-xl-10">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="ri-pie-chart-line"></i></div>
+            <h4 class="title"><a href="">ፕላን ስምምነት</a></h4>
+            <p class="description">ይህ ሂደት 2 ሰአታት ብቻ የሚወስድ ሲሆን የመሬት ይዞታ የምስክር ወረቀት መሰረታዊ መረጃን ለማወቅ ይረዳዎታል።   
+            </p>
+
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="ri-stack-line"></i></div>
+            <h4 class="title"><a href="">ግንባታ ፈቃድ</a></h4>
+            <p class="description">
+            ይህ ሂደት 21 ቀናት ብቻ ይወስዳል. የእኛ ባለሙያዎች እንደ (አርክቴክቸር፣ስትራክቸራል፣ንፅህና፣ኤሌክትሪክ) የእርስዎን ንድፎች ይመረምራሉ እና በሁሉም መንገድ ይመራዎታል።</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="ri-markup-line"></i></div>
+            <h4 class="title"><a href="">የግንባታ ቁጥጥር እና ክትትል</a></h4>
+            <p class="description">
+            ይህ ሂደት 5 ቀናት ብቻ ይወስዳል. ባለሙያዎቻችን የግንባታ ቦታዎን ይመረምራሉ እና የግንባታ ቦታዎ ስራዎች በግንባታ ፈቃድ ዲዛይን ላይ የተመሰረቱ መሆናቸውን ያረጋግጣሉ እና ደንበኞቻቸው ግንባታ ካልጀመሩ የጀማሪ ፍቃድ ይሰጣሉ</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="ri-shape-line"></i></div>
+            <h4 class="title"><a href="">የመጠቀሚያ ፈቃድ</a></h4>
+            <p class="description">
+            የግንባታ ቦታዎ ስራ ከተጠናቀቀ በኋላ ደንበኞቹ እንደ ዓላማው ሕንፃውን ለመጠቀም ፈቃድ ይጠይቃሉ::</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="ri-fingerprint-line"></i></div>
+            <h4 class="title"><a href="">ማስታወቂያ ፈቃድ</a></h4>
+            <p class="description">ደንበኞቹ በተወሰኑ ቦታዎች ላይ ለማስተዋወቅ የማስታወቂያ ፈቃድ ይጠይቃሉ።.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="ri-body-scan-line"></i></div>
+            <h4 class="title"><a href="">የመሠረተ ልማት ፍቃድ</a></h4>
+            <p class="description">በመርሃግብር ላይ የተመሰረተ የመሠረተ ልማት ፍቃድ ፕሮጀክቱን ለመጨረስ እና የኩባንያዎቹን መርሃግብሮች ለመቆጣጠር ኩባንያዎች ይሰጣሉ::</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="ri-body-scan-line"></i></div>
+            <h4 class="title"><a href="">የግንባታ ኢንዱስትሪ ፈቃድ</a></h4>
+            <p class="description">ለኮንትራክተሮች እና አማካሪዎች ፈቃድ መስጠት</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End Services Section -->
+
+<!-- ======= Portfolio Section ======= -->
+<section id="portfolio" class="portfolio">
+  <div class="container-fluid">
+
+    <div class="section-title">
+      <h3>የኛ <span>ምስሎች</span></h3>
+      
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12 d-flex justify-content-center">
+        <ul id="portfolio-flters">
+          <li data-filter="*" class="filter-active">ሁሉም ምስሎች</li>
+          <li data-filter=".filter-app">ስጦታ እና የምስክር ወረቀቶች</li>
+          <li data-filter=".filter-card">አረንጓዴ አሻራ</li>
+          <li data-filter=".filter-web">ቢሮ</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row portfolio-container justify-content-center">
+
+     <div class="col-xl-10">
+      <div class="row">
+
+       <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="portfolio-wrap">
+         <%= image_tag("gift.jpg", class: "img-fluid")%>
+         <div class="portfolio-info">
+
+          <div class="portfolio-links">
+           <a href="<%= asset_path('gift1.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+         </div>
+       </div>
+     </div>
+   </div><!-- End portfolio item -->
+
+   <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+    <div class="portfolio-wrap">
+      <%= image_tag("gift4.jpg", class: "img-fluid")%>
+      <div class="portfolio-info">
+
+        <div class="portfolio-links">
+         <a href="<%= asset_path('gift4.jpg')%>" data-gallery="giftGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+       </div>
+     </div>
+   </div>
+ </div><!-- End portfolio item -->
+
+ <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+  <div class="portfolio-wrap">
+    <%= image_tag("gift8.jpg", class: "img-fluid")%>
+    <div class="portfolio-info">
+
+      <div class="portfolio-links">
+       <a href="<%= asset_path('gift9.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+
+     </div>
+   </div>
+ </div>
+</div><!-- End portfolio item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-card">
+  <div class="portfolio-wrap">
+   <%= image_tag("gift10.jpg", class: "img-fluid")%>
+   <div class="portfolio-info">
+
+    <div class="portfolio-links">
+     <a href="<%= asset_path('gift14.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+
+   </div>
+ </div>
+</div>
+</div><!-- End portfolio item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+  <div class="portfolio-wrap">
+   <img src="assets/img/green/gift15.jpg" class="img-fluid" alt="">
+   <%= image_tag("gift15.jpg", class: "img-fluid")%>
+   <div class="portfolio-info">
+
+    <div class="portfolio-links">
+     <a href="<%= asset_path('gift16.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+
+   </div>
+ </div>
+</div>
+</div><!-- End portfolio item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+  <div class="portfolio-wrap">
+   <%= image_tag("gift17.jpg", class: "img-fluid")%>
+   <div class="portfolio-info">
+    <div class="portfolio-links">
+     <a href="<%= asset_path('gift19.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+
+   </div>
+ </div>
+</div>
+</div><!-- End portfolio item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-card">
+  <div class="portfolio-wrap">
+   <%= image_tag("gift21.jpg", class: "img-fluid")%>
+   <div class="portfolio-info">
+
+    <div class="portfolio-links">
+     <a href="<%= asset_path('gift22.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+
+   </div>
+ </div>
+</div>
+</div><!-- End portfolio item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-card">
+  <div class="portfolio-wrap">
+    <%= image_tag("gift23.jpg", class: "img-fluid")%>
+    <div class="portfolio-info">
+
+      <div class="portfolio-links">
+       <a href="<%= asset_path('gift24.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+
+     </div>
+   </div>
+ </div>
+</div><!-- End portfolio item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+  <div class="portfolio-wrap">
+    <%= image_tag("gift18.jpg", class: "img-fluid")%>
+    <div class="portfolio-info">
+
+      <div class="portfolio-links">
+       <a href="<%= asset_path('gift20.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+
+     </div>
+   </div>
+ </div>
+</div><!-- End portfolio item -->
+
+</div>
+</div>
+
+</div>
+
+</div>
+</section><!-- End Portfolio Section -->
+
+
+
+<!-- ======= Team Section ======= -->
+<section id="team" class="team">
+ <div class="container-fluid">
+
+  <div class="section-title">
+   <h3>አመራር <span>ቡድኖች</span></h3>
+ </div>
+
+ <div class="row justify-content-center">
+   <div class="col-xl-10">
+    <div class="row">
+
+     <div class="col-xl-3 col-lg-4 col-md-6">
+      <div class="member">
+       <%= image_tag("team-1.jpg", class: "img-fluid")%>
+       <div class="member-info">
+        <div class="member-info-content">
+         <h4>Setotaw Akale</h4>
+         <span>የግንባታ ፍቃድ ዋና ዳይሬክተር</span>
+       </div>
+       <div class="social">
+         <a href=""><i class="bi bi-twitter"></i></a>
+         <a href=""><i class="bi bi-facebook"></i></a>
+         <a href=""><i class="bi bi-instagram"></i></a>
+       </div>
+     </div>
+   </div>
+ </div> <!-- End Member Item -->
+
+ <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.1s">
+  <div class="member">
+   <%= image_tag("team-2.jpg", class: "img-fluid")%>
+   <div class="member-info">
+    <div class="member-info-content">
+     <h4>Dawit Hundessa</h4>
+     <span>የግንባታ ፍቃድ ም/ዋና ዳይሬክተር</span>
+   </div>
+   <div class="social">
+     <a href=""><i class="bi bi-twitter"></i></a>
+     <a href=""><i class="bi bi-facebook"></i></a>
+     <a href=""><i class="bi bi-instagram"></i></a>
+     <a href=""><i class="bi bi-linkedin"></i></a>
+   </div>
+ </div>
+</div>
+</div> <!-- End Member Item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.2s">
+  <div class="member">
+   <%= image_tag("team-3.jpg", class: "img-fluid")%>
+   <div class="member-info">
+    <div class="member-info-content">
+     <h4>Gezahegn Desisa</h4>
+     <span>የግንባታ ክትትል እና ቁጥጥር ም/ዋና ዳይሬክተር</span>
+   </div>
+   <div class="social">
+     <a href=""><i class="bi bi-twitter"></i></a>
+     <a href=""><i class="bi bi-facebook"></i></a>
+     <a href=""><i class="bi bi-instagram"></i></a>
+     <a href=""><i class="bi bi-linkedin"></i></a>
+   </div>
+ </div>
+</div>
+</div> <!-- End Member Item -->
+<div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.3s">
+  <div class="member">
+   <%= image_tag("t.jpg", class: "img-fluid")%>
+   <div class="member-info">
+    <div class="member-info-content">
+     <h4> Teklu </h4>
+     <span>ዋና ስራ አስፈፃሚ</span>
+   </div>
+   <div class="social">
+     <a href=""><i class="bi bi-twitter"></i></a>
+     <a href=""><i class="bi bi-facebook"></i></a>
+     <a href=""><i class="bi bi-instagram"></i></a>
+     <a href=""><i class="bi bi-linkedin"></i></a>
+   </div>
+ </div>
+</div>
+</div> 
+
+<div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.3s">
+  <div class="member">
+   <%= image_tag("team-4.jpg", class: "img-fluid")%>
+   <div class="member-info">
+    <div class="member-info-content">
+     <h4> Nesteho Abdi </h4>
+     <span>ዋና ስራ አስፈፃሚ</span>
+   </div>
+   <div class="social">
+     <a href=""><i class="bi bi-twitter"></i></a>
+     <a href=""><i class="bi bi-facebook"></i></a>
+     <a href=""><i class="bi bi-instagram"></i></a>
+     <a href=""><i class="bi bi-linkedin"></i></a>
+   </div>
+ </div>
+</div>
+</div> <!-- End Member Item -->
+
+</div>
+</div>
+</div>
+
+</div>
+</section><!-- End Team Section -->
+
+
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact section-bg">
+  <div class="container-fluid">
+
+    <div class="section-title">
+      <h3>ከእኛ ጋር በዚህ አድራሻ<span>ይገናኙ</span></h3>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-xl-10">
+        <div class="row">
+
+          <div class="col-lg-6">
+
+            <div class="row justify-content-center">
+
+              <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                <i class="bx bx-map"></i>
+                <h4>አድራሻ</h4>
+                <p>ለም ሆቴል  |22 መንገድ  | ኤም ኤ ህንፃ <br>አዲስ አበባ</p>
+              </div>
+              <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                <i class="bx bx-phone"></i>
+                <h4>ይደውሉ</h4>
+                <p>0115111111|<br>0115222222</p>
+              </div>
+              <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                <i class="bx bx-envelope"></i>
+                <h4>ኢሜል ይፃፉልን</h4>
+                <p>constructionpermit@gmail.com |<br>buildingpermit@gmail.com</p>
+              </div>
+              <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                <i class="bx bx-time-five"></i>
+                <h4>የስራ ሰአት</h4>
+                <p>ሰኞ - አርብ: 8:30AM to 5:30PM</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="name">ስም</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <label for="email">ኢሜል</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <label for="subject">ርዕስ</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <label for="message">መልዕክት</label>
+                <textarea class="form-control" name="message" rows="8" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">ላክ</button></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End Contact Section -->
+
+</main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+
+  <div class="footer-top">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-xl-10">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>ጠቃሚ አገናኞች</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="assets/1.pdf">የግንባታ ፈቃድ መመሪያዎችን አውርድ</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="assets/1.pdf">የማመልከቻ ቅጾችን አውርድ</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="assets/Winrar.rar">መስፈርቶች አውርድ</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="assets/1.mp4" download> የማጠናከሪያ ቪዲዮ አውርድ</a></li>
+
+              </ul>
+            </div>
+
+
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h4>አድራሻችን</h4>
+              <p>
+                ለምሆቴል <br>
+                22 መንገድ, ኤም ኤ ህንፃ |<br>
+                አዲስ አበባ <br><br>
+                <strong>Phone:</strong> +2519112233<br>
+                <strong>Email:</strong> constuctionpermit@gmail.com<br>
+              </p>
+
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-info">
+              <h3>ስለ እኛ</h3>
+              <p>እኛ የንግድ ህንጻ ግንባታን ለመገንባት የምንሰራው የመንግስት ቢሮዎች ነን ፣ ከመሬት ማረጋገጫ ጀምሮ አስፈላጊ የሆኑ ፍቃዶችን እና ፈቃዶችን እስከ ማግኘት ድረስ, ግንባታው ከተጠናቀቀ በኋላ ለመጨረሻ ጊዜ ምርመራ. አስፈላጊውን አገልግሎት ለመስጠት በዚህ ጉዞ ውስጥ የተሳተፉ የመንግስት ድርጅት ነን፡፡</p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright <strong><span>የአዲስ አበባ ግንባታ ፈቃድና ቁጥጥር ባለሥልጣን</span></strong>. መብቱ በህግ የተጠበቀ ነው
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/hidayah-free-simple-html-template-for-corporate/ -->
+      ይህ ድህረ-ገፅ የተነደፈው <a href="https://bootstrapmade.com/">የግንባታ ፈቃድና ቁጥጥር ባለሥልጣን አይቲ ዲፓርትመንት</a>
+    </div>
+  </div>
+</footer><!-- End Footer -->
+
+<!--   <div id="preloader"></div> -->
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

@@ -27,8 +27,8 @@ gem 'activeadmin', '~> 2.9'
 # gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 gem 'activeadmin_addons', '~> 1.7', '>= 1.7.1'
 gem 'active_admin_theme', '~> 1.1', '>= 1.1.4'
-gem 'dotenv-rails', '~> 2.7', '>= 2.7.6'
-
+gem 'bootstrap', '~> 5.2', '>= 5.2.2'
+gem "image_processing"
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password

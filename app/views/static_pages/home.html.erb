@@ -1,0 +1,558 @@
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top header-inner-pages">
+ <div class="container d-flex align-items-center justify-content-between">
+  <%= image_tag "logo1.png", size: "70x70", align:"left"%>
+  <h6 style="color:white;">Addis Ababa Construction Permit and Control Autority</h6>
+  <!-- Uncomment below if you prefer to use an image logo -->
+  <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+  <nav id="navbar" class="navbar">
+   <ul>
+    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+    <li><a class="nav-link scrollto" href="#about">How to  Apply</a></li>
+    <li><a class="nav-link scrollto" href="#services">Services</a></li>
+    <li><a class="nav-link  scrollto" href="#portfolio">Gallery</a></li>
+    <li><a class="nav-link scrollto" href="#team">Managment Team</a></li>
+    <li class="dropdown"><a href="/"><span>Announcements</span> <i class="bi bi-chevron-down"></i></a>
+      <ul>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Vacancy</a></li>
+        <li><a href="#">Tenders</a></li>
+      </ul>
+    </li>
+    <li class="dropdown"><a href="/"><span>Resources</span> <i class="bi bi-chevron-down"></i></a>
+     <ul>
+      <li><a href="#">Application Forms</a></li>
+      <li><a href="#">Instructions</a></li>
+      <li><a href="#">Requirements</a></li>
+      <li><a href="assets/1.mp4">Tutorial videos</a></li>
+      <li><a href="assets/structure.pdf">Structure</a></li>
+    </ul>
+  </li>
+  <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+  <li class="dropdown"><a href="/"><span>Language</span> <i class="bi bi-chevron-down"></i></a>
+   <ul>
+    <li><a href="index.html">English</a></li>
+    <li><a href="index_amharic.html">Amharic</a></li>
+    <li><a href="index_oromia.html">Oromic</a></li>
+  </ul>
+</ul>
+<i class="bi bi-list mobile-nav-toggle"></i>
+</nav><!-- .navbar -->
+
+</div>
+</header><!-- End Header -->
+
+<!-- ======= Hero Section ======= -->
+<section id="hero">
+  <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+   <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+   <div class="carousel-inner" role="listbox">
+
+    <!-- Slide 1 -->
+    <div class="carousel-item active" style="background-image: url(<%= asset_path('slide-1.jpg')%>)">
+     <div class="carousel-container">
+      <div class="container">
+       <h2 class="animated fadeInDown">Welcome to <span>Addis Ababa Construction Permit and Control Autority</span></h2>
+       <p class="animated fadeInUp">Thanks for visiting our page. we hope that you will explore the opportunities and your information needs.</p>
+       <a href="https://business.gov.et" class="btn-get-started animated fadeInUp scrollto">Get Started</a>
+     </div>
+   </div>
+ </div>
+
+ <!-- Slide 2 -->
+ <div class="carousel-item" style="background-image: url(<%= asset_path('slide-2.jpg')%>)">
+   <div class="carousel-container">
+    <div class="container">
+     <h2 class="animated fadeInDown">How to Apply</h2>
+     <p class="animated fadeInUp">You will find Tutorial Videos on the resource dropdown menu it will show you  all the necessary steps how to apply for construction permit,commencement permit,occupancy permit etc...</p>
+     <a href="https://business.gov.et" class="btn-get-started animated fadeInUp scrollto">Get Started</a>
+   </div>
+ </div>
+</div>
+<!-- Slide 3 -->
+<div class="carousel-item" style="background-image: url(<%= asset_path('slide-3.jpg')%>)">
+ <div class="carousel-container">
+  <div class="container">
+   <h2 class="animated fadeInDown">Basic  Construction Permit Instructions</h2>
+   <p class="animated fadeInUp">You will find all the Instructions on the resource dropdown menu</p>
+   <a href="https://business.gov.et" class="btn-get-started animated fadeInUp scrollto">Get Started</a>
+ </div>
+</div>
+</div>
+
+<!-- Slide 4 -->
+<div class="carousel-item" style="background-image: url(<%= asset_path('slide-4.jpg')%>)">
+ <div class="carousel-container">
+  <div class="container">
+   <h2 class="animated fadeInDown">How to Apply</h2>
+   <p class="animated fadeInUp">You will find Tutorial Videos on the resource dropdown menu it will show you  all the necessary steps how to apply for construction permit,commencement permit,occupancy permit etc...</p>
+   <a href="https://business.gov.et" class="btn-get-started animated fadeInUp scrollto">Get Started</a>
+ </div>
+</div>
+</div>
+<!-- Slide 5 -->
+<div class="carousel-item" style="background-image: url(<%= asset_path('slide-5.jpg')%>)">
+ <div class="carousel-container">
+  <div class="container">
+   <h2 class="animated fadeInDown">Welcome to <span>Addis Ababa Construction Permit and Control Autority</span></h2>
+   <p class="animated fadeInUp">Thanks for visiting our page. we hope that you will explore the opportunities and your information needs.</p>
+   <a href="https://business.gov.et" class="btn-get-started animated fadeInUp scrollto">Get Started</a>
+ </div>
+</div>
+</div>
+
+</div>
+
+<a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+</a>
+<a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+  <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+</a>
+
+</div>
+</section><!-- End Hero -->
+
+<main id="main">
+
+  <!-- ======= About Section ======= -->
+
+
+  <section id="about" class="about">
+   <div class="container-fluid">
+    <div class="section-title">
+     <h3>How to <span>Apply</span></h3>
+   </div>
+   <div class="row justify-content-center">
+     <div class="col-sm-3 col-md-6 col-lg-4 video-box d-flex justify-content-left position-relative" controls poster="<%= asset_path('slide-5.jpg')%>">
+      <a href="https://youtu.be/UNpCbDuDuLE" class="glightbox play-btn mb-4"></a>
+    </div>
+
+    <div class="col-md-5 col-md-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+      <h3>Steps to apply for Construction Permit</h3>
+      <p>3 easy steps to apply for all our services</p>
+
+      <div class="icon-box">
+       <%= image_tag("registration.png", size: "70x70",align: "left" )%>
+       <h4 class="title"><a href="">Registration</a></h4>
+       <p class="description">Register to business portal and login using your phone number</p>
+     </div>
+
+     <div class="icon-box">
+       <%= image_tag("dealing.png", size: "70x70",align: "left" )%>
+       <h4 class="title"><a href="">Dealing with Construction Permit</a></h4>
+       <p class="description">click on dealing with construction permit, choose your scenario and click on "I Agree and Apply"</p>
+     </div>
+
+     <div class="icon-box">
+       <%= image_tag("form.png", size: "70x70",align: "left" )%>
+       <h4 class="title"><a href="">Choose Your Application Form</a></h4>
+       <p class="description">Choose Your Application Form and fill the form based on your building design informations.</p>
+     </div>
+
+   </div>
+ </div>
+
+</div>
+</section><!-- End About Section -->
+
+
+<!-- ======= Services Section ======= -->
+<section id="services" class="services">
+ <div class="container-fluid">
+
+  <div class="section-title">
+   <h3>Our <span>Services</span></h3>
+   <p>Here are 7 services we provide to our customers</p>
+ </div>
+
+ <div class="row justify-content-center">
+   <div class="col-xl-10">
+    <div class="row">
+     <div class="col-lg-4 col-md-6 icon-box">
+      <div class="icon"><i class="ri-pie-chart-line"></i></div>
+      <h4 class="title"><a href="">Plan Consent</a></h4>
+      <p class="description">This process will only take 2 hours and it will help you to know basic information of your land holding certificate.   
+      </p>
+
+    </div>
+    <div class="col-lg-4 col-md-6 icon-box">
+      <div class="icon"><i class="ri-stack-line"></i></div>
+      <h4 class="title"><a href="">Construction Permit</a></h4>
+      <p class="description">This process will only take 21 days. our experts will examine your designs like (Architectural,Structural,Sanitary,Eletrical) and guide you through all the way.</p>
+    </div>
+    <div class="col-lg-4 col-md-6 icon-box">
+      <div class="icon"><i class="ri-markup-line"></i></div>
+      <h4 class="title"><a href="">Construction Control</a></h4>
+      <p class="description">This process will only take 5 days. our experts will examine your construction site and they make sure your Construction site works are based on  the building permit design and also give the customers commencement permit if they don't start building.</p>
+    </div>
+    <div class="col-lg-4 col-md-6 icon-box">
+      <div class="icon"><i class="ri-shape-line"></i></div>
+      <h4 class="title"><a href="">Use Permit</a></h4>
+      <p class="description">After your construction site work is done the customers will apply for use permit to use the building based on it's purpose.</p>
+    </div>
+    <div class="col-lg-4 col-md-6 icon-box">
+      <div class="icon"><i class="ri-fingerprint-line"></i></div>
+      <h4 class="title"><a href="">Advert Permit</a></h4>
+      <p class="description">The customers will apply for advertisement permit to advertise on specific locations.</p>
+    </div>
+    <div class="col-lg-4 col-md-6 icon-box">
+      <div class="icon"><i class="ri-body-scan-line"></i></div>
+      <h4 class="title"><a href="">Infrastructure Permit</a></h4>
+      <p class="description">Infrastructure Permit based on scedules companies provide to finish the project and control the companies scedules.</p>
+    </div>
+    <div class="col-lg-4 col-md-6 icon-box">
+      <div class="icon"><i class="ri-body-scan-line"></i></div>
+      <h4 class="title"><a href="">Construction Industry Permit</a></h4>
+      <p class="description">Giving license for contractors and consultants.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+</section><!-- End Services Section -->
+
+<!-- ======= Portfolio Section ======= -->
+<section id="portfolio" class="portfolio">
+ <div class="container-fluid">
+
+  <div class="section-title">
+   <h3>Our <span>Gallery</span></h3>
+
+ </div>
+
+ <div class="row">
+   <div class="col-lg-12 d-flex justify-content-center">
+    <ul id="portfolio-flters">
+     <li data-filter="*" class="filter-active">All</li>
+     <li data-filter=".filter-app">Gift and Certifications</li>
+     <li data-filter=".filter-card">Green touch</li>
+     <li data-filter=".filter-web">Office</li>
+   </ul>
+ </div>
+</div>
+
+<div class="row portfolio-container justify-content-center">
+
+ <div class="col-xl-10">
+  <div class="row">
+
+   <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="portfolio-wrap">
+     <%= image_tag("gift.jpg", class: "img-fluid")%>
+     <div class="portfolio-info">
+
+      <div class="portfolio-links">
+       <a href="<%= asset_path('gift1.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+     </div>
+   </div>
+ </div>
+</div><!-- End portfolio item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+  <div class="portfolio-wrap">
+    <%= image_tag("gift4.jpg", class: "img-fluid")%>
+    <div class="portfolio-info">
+
+      <div class="portfolio-links">
+       <a href="<%= asset_path('gift4.jpg')%>" data-gallery="giftGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+     </div>
+   </div>
+ </div>
+</div><!-- End portfolio item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+  <div class="portfolio-wrap">
+    <%= image_tag("gift8.jpg", class: "img-fluid")%>
+    <div class="portfolio-info">
+
+      <div class="portfolio-links">
+       <a href="<%= asset_path('gift9.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+
+     </div>
+   </div>
+ </div>
+</div><!-- End portfolio item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-card">
+  <div class="portfolio-wrap">
+   <%= image_tag("gift10.jpg", class: "img-fluid")%>
+   <div class="portfolio-info">
+
+    <div class="portfolio-links">
+     <a href="<%= asset_path('gift14.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+
+   </div>
+ </div>
+</div>
+</div><!-- End portfolio item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+  <div class="portfolio-wrap">
+   <img src="assets/img/green/gift15.jpg" class="img-fluid" alt="">
+   <%= image_tag("gift15.jpg", class: "img-fluid")%>
+   <div class="portfolio-info">
+
+    <div class="portfolio-links">
+     <a href="<%= asset_path('gift16.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+
+   </div>
+ </div>
+</div>
+</div><!-- End portfolio item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+  <div class="portfolio-wrap">
+   <%= image_tag("gift17.jpg", class: "img-fluid")%>
+   <div class="portfolio-info">
+    <div class="portfolio-links">
+     <a href="<%= asset_path('gift19.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+
+   </div>
+ </div>
+</div>
+</div><!-- End portfolio item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-card">
+  <div class="portfolio-wrap">
+   <%= image_tag("gift21.jpg", class: "img-fluid")%>
+   <div class="portfolio-info">
+
+    <div class="portfolio-links">
+     <a href="<%= asset_path('gift22.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+
+   </div>
+ </div>
+</div>
+</div><!-- End portfolio item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-card">
+  <div class="portfolio-wrap">
+    <%= image_tag("gift23.jpg", class: "img-fluid")%>
+    <div class="portfolio-info">
+
+      <div class="portfolio-links">
+       <a href="<%= asset_path('gift24.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+
+     </div>
+   </div>
+ </div>
+</div><!-- End portfolio item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+  <div class="portfolio-wrap">
+    <%= image_tag("gift18.jpg", class: "img-fluid")%>
+    <div class="portfolio-info">
+
+      <div class="portfolio-links">
+       <a href="<%= asset_path('gift20.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+
+     </div>
+   </div>
+ </div>
+</div><!-- End portfolio item -->
+
+</div>
+</div>
+
+</div>
+
+</div>
+</section><!-- End Portfolio Section -->
+
+<!-- ======= Team Section ======= -->
+<section id="team" class="team">
+ <div class="container-fluid">
+
+  <div class="section-title">
+   <h3>Our <span>Managment Team</span></h3>
+
+ </div>
+
+ <div class="row justify-content-center">
+   <div class="col-xl-10">
+    <div class="row">
+
+     <div class="col-xl-3 col-lg-4 col-md-6">
+      <div class="member">
+       <%= image_tag("team-1.jpg", class: "img-fluid")%>
+       <div class="member-info">
+        <div class="member-info-content">
+         <h4>Setotaw Akale</h4>
+         <span>የግንባታ ፍቃድ ዋና ዳይሬክተር</span>
+       </div>
+       <div class="social">
+         <a href=""><i class="bi bi-twitter"></i></a>
+         <a href=""><i class="bi bi-facebook"></i></a>
+         <a href=""><i class="bi bi-instagram"></i></a>
+       </div>
+     </div>
+   </div>
+ </div> <!-- End Member Item -->
+
+ <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.1s">
+  <div class="member">
+   <%= image_tag("team-2.jpg", class: "img-fluid")%>
+   <div class="member-info">
+    <div class="member-info-content">
+     <h4>Dawit Hundessa</h4>
+     <span>የግንባታ ፍቃድ ም/ዋና ዳይሬክተር</span>
+   </div>
+   <div class="social">
+     <a href=""><i class="bi bi-twitter"></i></a>
+     <a href=""><i class="bi bi-facebook"></i></a>
+     <a href=""><i class="bi bi-instagram"></i></a>
+     <a href=""><i class="bi bi-linkedin"></i></a>
+   </div>
+ </div>
+</div>
+</div> <!-- End Member Item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.2s">
+  <div class="member">
+   <%= image_tag("team-3.jpg", class: "img-fluid")%>
+   <div class="member-info">
+    <div class="member-info-content">
+     <h4>Gezahegn Desisa</h4>
+     <span>የግንባታ ክትትል እና ቁጥጥር ም/ዋና ዳይሬክተር</span>
+   </div>
+   <div class="social">
+     <a href=""><i class="bi bi-twitter"></i></a>
+     <a href=""><i class="bi bi-facebook"></i></a>
+     <a href=""><i class="bi bi-instagram"></i></a>
+     <a href=""><i class="bi bi-linkedin"></i></a>
+   </div>
+ </div>
+</div>
+</div> <!-- End Member Item -->
+<div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.3s">
+  <div class="member">
+    <%= image_tag("t.jpg", class: "img-fluid")%>
+   <div class="member-info">
+    <div class="member-info-content">
+     <h4> Teklu </h4>
+     <span>ዋና ስራ አስፈፃሚ</span>
+   </div>
+   <div class="social">
+     <a href=""><i class="bi bi-twitter"></i></a>
+     <a href=""><i class="bi bi-facebook"></i></a>
+     <a href=""><i class="bi bi-instagram"></i></a>
+     <a href=""><i class="bi bi-linkedin"></i></a>
+   </div>
+ </div>
+</div>
+</div> 
+
+<div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.3s">
+  <div class="member">
+   <%= image_tag("team-4.jpg", class: "img-fluid")%>
+   <div class="member-info">
+    <div class="member-info-content">
+     <h4> Nesteho Abdi </h4>
+     <span>ዋና ስራ አስፈፃሚ</span>
+   </div>
+   <div class="social">
+     <a href=""><i class="bi bi-twitter"></i></a>
+     <a href=""><i class="bi bi-facebook"></i></a>
+     <a href=""><i class="bi bi-instagram"></i></a>
+     <a href=""><i class="bi bi-linkedin"></i></a>
+   </div>
+ </div>
+</div>
+</div> <!-- End Member Item -->
+
+</div>
+</div>
+</div>
+
+</div>
+</section><!-- End Team Section -->
+
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact section-bg">
+ <div class="container-fluid">
+
+  <div class="section-title">
+   <h3>Get In Touch With <span>Us</span></h3>
+ </div>
+
+ <div class="row justify-content-center">
+   <div class="col-xl-10">
+    <div class="row">
+
+     <div class="col-lg-6">
+
+      <div class="row justify-content-center">
+
+       <div class="col-md-6 info d-flex flex-column align-items-stretch">
+        <i class="bx bx-map"></i>
+        <h4>Address</h4>
+        <p>Lem Hotel | 22 road | MA Building,<br>Addis Ababa</p>
+      </div>
+      <div class="col-md-6 info d-flex flex-column align-items-stretch">
+        <i class="bx bx-phone"></i>
+        <h4>Call Us</h4>
+        <p>0115111111|<br>0115222222</p>
+      </div>
+      <div class="col-md-6 info d-flex flex-column align-items-stretch">
+        <i class="bx bx-envelope"></i>
+        <h4>Email Us</h4>
+        <p>constructionpermit@gmail.com |<br>buildingpermit@gmail.com</p>
+      </div>
+      <div class="col-md-6 info d-flex flex-column align-items-stretch">
+        <i class="bx bx-time-five"></i>
+        <h4>Working Hours</h4>
+        <p>Mon - Fri: 8:30AM to 5:30PM</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="col-lg-6">
+    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+     <div class="row">
+      <div class="col-md-6 form-group">
+       <label for="name">Your Name</label>
+       <input type="text" name="name" class="form-control" id="name" required>
+     </div>
+     <div class="col-md-6 form-group mt-3 mt-md-0">
+       <label for="email">Your Email</label>
+       <input type="email" class="form-control" name="email" id="email" required>
+     </div>
+   </div>
+   <div class="form-group mt-3">
+    <label for="subject">Subject</label>
+    <input type="text" class="form-control" name="subject" id="subject" required>
+  </div>
+  <div class="form-group mt-3">
+    <label for="message">Message</label>
+    <textarea class="form-control" name="message" rows="8" required></textarea>
+  </div>
+  <div class="my-3">
+    <div class="loading">Loading</div>
+    <div class="error-message"></div>
+    <div class="sent-message">Your message has been sent. Thank you!</div>
+  </div>
+  <div class="text-center"><button type="submit">Send Message</button></div>
+</form>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</section><!-- End Contact Section -->
+
+</main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+
+

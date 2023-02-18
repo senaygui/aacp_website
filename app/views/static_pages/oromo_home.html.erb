@@ -1,0 +1,622 @@
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center justify-content-between">
+      <%= image_tag "logo1.png", size: "70x70", align:"left"%>
+      <h6 style="color:white;">Abbaa Taayitaa Hayyamaa fi To’annoo Konistiraakshinii Addis Ababa</h6>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Jalqaba</a></li>
+          <li><a class="nav-link scrollto" href="#about">Akkaataa Iyyatan</a></li>
+          <li><a class="nav-link scrollto" href="#services">Tajaajila</a></li>
+          <li><a class="nav-link  scrollto" href="#portfolio">Suurawwaan</a></li>
+          <li><a class="nav-link scrollto" href="#team">Garee bulchiinsa</a></li>
+          <li class="dropdown"><a href="#"><span>Beeksisoota</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              
+             <li><a href="#">Oduu</a></li>
+             <li><a href="#">Umamma</a></li>
+             <li><a href="#">Hojjii iddoo duwwaa</a></li>
+             <li><a href="#">Caalbaasii</a></li>
+           </ul>
+         </li>
+         <li class="dropdown"><a href="#"><span>Maddaa</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="#">Gucaa Iyyannoo</a></li>
+            <li><a href="#">Qajjelfamma</a></li>
+            <li><a href="#">Wantouta bar baachisan</a></li>
+            <li><a href="assets/1.mp4">Viidiyoo qarqaarsa</a></li>
+            <li><a href="assets/structure.pdf">Caasaa</a></li>
+          </ul>
+        </li>
+        <li><a class="nav-link scrollto" href="#contact">Iddoo</a></li>
+        <li class="dropdown"><a href="#"><span>Afaan</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="index.html">Afaan Ingilizii</a></li>
+            <li><a href="index_amharic.html">Afaan Amaaraa</a></li>
+            <li><a href="index_oromia.html">Afaan Oromoo</a></li>
+          </ul>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(<%= asset_path('slide-1.jpg')%>)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animated fadeInDown">Baga nagaan dhuftan <span> Addis Ababa Hayyama Ijaarsa fi To'annoo Ofiin of bulchuu</span></h2>
+              <p class="animated fadeInUp">Page keenya waan daawwattaniif galatoomaa..</p>
+              <a href="https://business.gov.et" class="btn-get-started animated fadeInUp scrollto">Jalqabi</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(<%= asset_path('slide-2.jpg')%>)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animated fadeInDown">Akkaataa Iyyatan</h2>
+              <p class="animated fadeInUp">Tutorial Videos resource dropdown menu irratti ni argattu tarkaanfiiwwan barbaachisoo ta'an hunda akkaataa hayyama ijaarsaa,hayyama jalqabbii,heyyama qabannaa iyyachuu dandeessan hunda sitti agarsiisa etc...</p>
+              <a href="https://business.gov.et" class="btn-get-started animated fadeInUp scrollto">Jalqabi</a>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(<%= asset_path('slide-3.jpg')%>)">
+          <div class="carousel-container">
+            <div class="container">
+             <h2 class="animated fadeInDown">Qajeelfama Hayyama Ijaarsa Bu’uuraa</h2>
+             <p class="animated fadeInUp">Qajeelfama hunda sajoo tarree qabeenya irratti ni argatta</p>
+             <a href="https://business.gov.et" class="btn-get-started animated fadeInUp scrollto">Jalqabi</a>
+           </div>
+         </div>
+       </div>
+
+       <!-- Slide 4 -->
+       <div class="carousel-item" style="background-image: url(<%= asset_path('slide-4.jpg')%>)">
+        <div class="carousel-container">
+          <div class="container">
+            <h2 class="animated fadeInDown">Akkaataa Iyyatan</h2>
+            <p class="animated fadeInUp">Tutorial Videos resource dropdown menu irratti ni argattu tarkaanfiiwwan barbaachisoo ta'an hunda akkaataa hayyama ijaarsaa,hayyama jalqabbii,heyyama qabannaa iyyachuu dandeessan hunda sitti agarsiisa etc...</p>
+            <a href="https://business.gov.et" class="btn-get-started animated fadeInUp scrollto">Jalqabi</a>
+          </div>
+        </div>
+      </div>
+      <!-- Slide 5 -->
+      <div class="carousel-item" style="background-image: url(<%= asset_path('slide-5.jpg')%>)">
+        <div class="carousel-container">
+          <div class="container">
+            <h2 class="animated fadeInDown">Baga nagaan dhuftan <span>Addis Ababa Hayyama Ijaarsa fi To'annoo Ofiin of bulchuu<</span></h2>
+            <p class="animated fadeInUp">Page keenya waan daawwattaniif galatoomaa..</p>
+            <a href="https://business.gov.et" class="btn-get-started animated fadeInUp scrollto">Jalqabi</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+    </a>
+    <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+    </a>
+
+  </div>
+</section><!-- End Hero -->
+
+<main id="main">
+
+  <!-- ======= About Section ======= -->
+  
+  
+  <section id="about" class="about">
+    <div class="container-fluid">
+      <div class="section-title">
+        <h3>Akkaataa  <span>Iyyatan</span></h3>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-sm-3 col-md-6 col-lg-4 video-box d-flex justify-content-left position-relative" controls poster="/images/slide/slide-1.jpg">
+          <a href="https://youtu.be/UNpCbDuDuLE" class="glightbox play-btn mb-4"></a>
+        </div>
+
+        <div class="col-md-5 col-md-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+          <h3>Tarkaanfiiwwan Hayyama Ijaarsa iyyachuuf fudhataman</h3>
+          <p>Tajaajila keenya hundaaf iyyachuuf tarkaanfiiwwan salphaa 3</p>
+
+          <div class="icon-box">
+           <%= image_tag("registration.png", size: "70x70",align: "left" )%>
+           <h4 class="title"><a href="">Galmeessuu</a></h4>
+           <p class="description">Portal daldalaa irratti galmaa'aa numbe bilbila keessanii fayyadamuun seenar</p>
+         </div>
+
+         <div class="icon-box">
+          <%= image_tag("dealing.png", size: "70x70",align: "left" )%>
+          <h4 class="title"><a href="">Hayyama Ijaarsa Waliin Hojjetamu</a></h4>
+          <p class="description">dealing with construction permit kan jedhu cuqaasaa, scenario keessan filadhaatii "I Agree and Apply" kan jedhu cuqaasaa.</p>
+        </div>
+
+        <div class="icon-box">
+          <%= image_tag("form.png", size: "70x70",align: "left" )%>
+          <h4 class="title"><a href="">Unka Iyyannoo Keessan Filadhaa</a></h4>
+          <p class="description">Unka Iyyannoo Keessan filadhaatii odeeffannoo dizaayinii gamoo keessanii irratti hundaa’uun unka guutaa.</p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section><!-- End About Section -->
+
+
+<!-- ======= Services Section ======= -->
+<section id="services" class="services">
+  <div class="container-fluid">
+
+    <div class="section-title">
+      <h3>Tajaajila <span>Keenya</span></h3>
+      <p>Tajaajila 7 maamiltoota keenyaaf kenninu kunooti</p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-xl-10">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="ri-pie-chart-line"></i></div>
+            <h4 class="title"><a href="">Hayyama Karooraa</a></h4>
+            <p class="description">Adeemsi kun sa’aatii 2 qofa kan fudhatu yoo ta’u, odeeffannoo bu’uuraa ragaa qabiyyee lafaa keessanii beekuuf isin gargaara.   
+            </p>
+            
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="ri-stack-line"></i></div>
+            <h4 class="title"><a href="">Hayyama Ijaarsa</a></h4>
+            <p class="description">Adeemsi kun guyyoota 21 qofa fudhata. ogeeyyiin keenya dizaayinoota keessan kan akka (Architectural,Structural,Sanitary,Eletrical) qoratanii karaa hunda keessa isin qajeelchu.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="ri-markup-line"></i></div>
+            <h4 class="title"><a href="">To'annoo Ijaarsa</a></h4>
+            <p class="description">Adeemsi kun guyyaa 5 qofa fudhata. ogeeyyiin keenya iddoo ijaarsa keessan ni qoratu hojiin iddoo Ijaarsa keessanii dizaayinii hayyama ijaarsaa irratti hundaa’uun akka ta’e ni mirkaneessa akkasumas maamiltoonni ijaarsa yoo hin jalqabne hayyama jalqabbii ni kennu.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="ri-shape-line"></i></div>
+            <h4 class="title"><a href="">Hayyama Fayyadamaa</a></h4>
+            <p class="description">Hojiin iddoo ijaarsaa keessan erga hojjetamee booda maamiltoonni kaayyoo isaa irratti hundaa'uun gamoo sana fayyadamuuf hayyama itti fayyadamaa ni iyyatu.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="ri-fingerprint-line"></i></div>
+            <h4 class="title"><a href="">Hayyama Beeksisa</a></h4>
+            <p class="description">Maamiltoonni bakka murtaa’e irratti beeksisa baasuuf hayyama beeksisaaf ni iyyatu.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="ri-body-scan-line"></i></div>
+            <h4 class="title"><a href="">Hayyama Bu’uuraalee Misoomaa</a></h4>
+            <p class="description">Hayyama bu’uuraalee misoomaa sagantaalee irratti hundaa’uun dhaabbileen pirojekticha xumuruu fi gabatee dhaabbilee to’achuuf kennan.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box">
+            <div class="icon"><i class="ri-body-scan-line"></i></div>
+            <h4 class="title"><a href="">Hayyama Industirii Ijaarsa</a></h4>
+            <p class="description">Kontiraaktarootaa fi gorsitootaaf hayyama kennuu.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End Services Section -->
+
+<!-- ======= Portfolio Section ======= -->
+<section id="portfolio" class="portfolio">
+  <div class="container-fluid">
+
+    <div class="section-title">
+      <h3>Galmee <span>keenya</span></h3>
+      
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12 d-flex justify-content-center">
+        <ul id="portfolio-flters">
+          <li data-filter="*" class="filter-active">Hunda</li>
+          <li data-filter=".filter-app">Kennaa fi Mirkaneessaa</li>
+          <li data-filter=".filter-card">Tuttuqaa magariisaa</li>
+          <li data-filter=".filter-web">Waajjira</li>
+        </ul>
+      </div>
+    </div>
+
+<div class="row portfolio-container justify-content-center">
+
+ <div class="col-xl-10">
+  <div class="row">
+
+   <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="portfolio-wrap">
+     <%= image_tag("gift.jpg", class: "img-fluid")%>
+     <div class="portfolio-info">
+
+      <div class="portfolio-links">
+       <a href="<%= asset_path('gift1.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+     </div>
+   </div>
+ </div>
+</div><!-- End portfolio item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+  <div class="portfolio-wrap">
+    <%= image_tag("gift4.jpg", class: "img-fluid")%>
+    <div class="portfolio-info">
+
+      <div class="portfolio-links">
+       <a href="<%= asset_path('gift4.jpg')%>" data-gallery="giftGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+     </div>
+   </div>
+ </div>
+</div><!-- End portfolio item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+  <div class="portfolio-wrap">
+    <%= image_tag("gift8.jpg", class: "img-fluid")%>
+    <div class="portfolio-info">
+
+      <div class="portfolio-links">
+       <a href="<%= asset_path('gift9.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+
+     </div>
+   </div>
+ </div>
+</div><!-- End portfolio item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-card">
+  <div class="portfolio-wrap">
+   <%= image_tag("gift10.jpg", class: "img-fluid")%>
+   <div class="portfolio-info">
+
+    <div class="portfolio-links">
+     <a href="<%= asset_path('gift14.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+
+   </div>
+ </div>
+</div>
+</div><!-- End portfolio item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+  <div class="portfolio-wrap">
+   <img src="assets/img/green/gift15.jpg" class="img-fluid" alt="">
+   <%= image_tag("gift15.jpg", class: "img-fluid")%>
+   <div class="portfolio-info">
+
+    <div class="portfolio-links">
+     <a href="<%= asset_path('gift16.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+
+   </div>
+ </div>
+</div>
+</div><!-- End portfolio item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
+  <div class="portfolio-wrap">
+   <%= image_tag("gift17.jpg", class: "img-fluid")%>
+   <div class="portfolio-info">
+    <div class="portfolio-links">
+     <a href="<%= asset_path('gift19.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+
+   </div>
+ </div>
+</div>
+</div><!-- End portfolio item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-card">
+  <div class="portfolio-wrap">
+   <%= image_tag("gift21.jpg", class: "img-fluid")%>
+   <div class="portfolio-info">
+
+    <div class="portfolio-links">
+     <a href="<%= asset_path('gift22.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+
+   </div>
+ </div>
+</div>
+</div><!-- End portfolio item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-card">
+  <div class="portfolio-wrap">
+    <%= image_tag("gift23.jpg", class: "img-fluid")%>
+    <div class="portfolio-info">
+
+      <div class="portfolio-links">
+       <a href="<%= asset_path('gift24.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+
+     </div>
+   </div>
+ </div>
+</div><!-- End portfolio item -->
+
+<div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-web">
+  <div class="portfolio-wrap">
+    <%= image_tag("gift18.jpg", class: "img-fluid")%>
+    <div class="portfolio-info">
+
+      <div class="portfolio-links">
+       <a href="<%= asset_path('gift20.jpg')%>" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+
+     </div>
+   </div>
+ </div>
+</div><!-- End portfolio item -->
+
+</div>
+</div>
+
+</div>
+
+  </div>
+</section><!-- End Portfolio Section -->
+
+
+<!-- ======= Team Section ======= -->
+<section id="team" class="team">
+  <div class="container-fluid">
+
+    <div class="section-title">
+     <h3>Garee </span>Bulchiinsa Keenya</h3>
+     
+   </div>
+
+   <div class="row justify-content-center">
+    <div class="col-xl-10">
+      <div class="row">
+
+        <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="member">
+            <%= image_tag("team-1.jpg", class: "img-fluid")%>
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Setotaw Akale</h4>
+                <span>Daarektarri Olaanaa Hayyama Ijaarsa</span>
+              </div>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div> <!-- End Member Item -->
+
+        <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.1s">
+          <div class="member">
+            <%= image_tag("team-2.jpg", class: "img-fluid")%>
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Dawit Hundessa</h4>
+                <span>Itti aanaa Daarektarri Olaanaa Hayyama Ijaarsa</span>
+              </div>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div> <!-- End Member Item -->
+
+        <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.2s">
+          <div class="member">
+            <%= image_tag("team-3.jpg", class: "img-fluid")%>
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Gezahegn Desisa</h4>
+                <span>Itti Aanaa Daarektarri Olaanaa Hordoffii fi To’annoo Konistiraakshinii</span>
+              </div>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div> <!-- End Member Item -->
+        <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.3s">
+          <div class="member">
+            <%= image_tag("t.jpg", class: "img-fluid")%>
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4> Teklu </h4>
+                <span>hoji gaggeessaa olaanaa</span>
+              </div>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.3s">
+          <div class="member">
+            <%= image_tag("team-4.jpg", class: "img-fluid")%>
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4> Nestiho Abdi </h4>
+                <span>hoji gaggeessaa olaanaa</span>
+              </div>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div> <!-- End Member Item -->
+
+      </div>
+    </div>
+  </div>
+
+</div>
+</section><!-- End Team Section -->
+
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact section-bg">
+  <div class="container-fluid">
+
+    <div class="section-title">
+      <h3>Nu <span>Qunnamaa</span></h3>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-xl-10">
+        <div class="row">
+
+          <div class="col-lg-6">
+
+            <div class="row justify-content-center">
+
+              <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                <i class="bx bx-map"></i>
+                <h4>Iddoo</h4>
+                <p>Lem Hotel | 22 road | MA Gamoo,<br>Addis Ababa</p>
+              </div>
+              <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                <i class="bx bx-phone"></i>
+                <h4>Nu Bilbilaa</h4>
+                <p>0115111111|<br>0115222222</p>
+              </div>
+              <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                <i class="bx bx-envelope"></i>
+                <h4>Email Nuuf Ergi</h4>
+                <p>constructionpermit@gmail.com |<br>buildingpermit@gmail.com</p>
+              </div>
+              <div class="col-md-6 info d-flex flex-column align-items-stretch">
+                <i class="bx bx-time-five"></i>
+                <h4>Sa'aatii Hojii</h4>
+                <p>Mon - Fri: 8:30AM to 5:30PM</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="name">Maqaa Keessan</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <label for="email">Email keessan</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <label for="subject">Mata duree</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <label for="message">Ergaa</label>
+                <textarea class="form-control" name="message" rows="8" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Erguu Ergaa</button></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section><!-- End Contact Section -->
+
+</main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+
+  <div class="footer-top">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-xl-10">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Links faayidaa qaban</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="assets/1.pdf">Download Qajeelfama Hayyama Ijaarsa</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="assets/1.pdf">Unka Iyyannoo Buufadhaa</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="assets/1.pdf">Download Barbaachisu</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="assets/1.mp4" download> Download Viidiyoo barnootaa buufadhaa </a></li>
+                
+              </ul>
+            </div>
+
+            
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h4>Nu Qunnamaa</h4>
+              <p>
+                Lem hotel  <br>
+                22 Road,MA Building<br>
+                Addis Ababa <br><br>
+                <strong>Phone:</strong> +2519112233<br>
+                <strong>Email:</strong> constuctionpermit@gmail.com<br>
+              </p>
+
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-info">
+              <h3>Waa'ee Keenya</h3>
+              <p>Nuyi waajjira mootummaa hojiin daldalaa keessa darbu bakka gamoo daldalaa ijaaruuf jecha, mirkaneessa lafaa irraa kaasee hanga hayyamaa fi hayyama barbaachisaa ta’e argachuutti, ijaarsi erga xumuramee booda sakatta’iinsa dhumaa. </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Addis Ababa Construction Permit and Control Autority</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/hidayah-free-simple-html-template-for-corporate/ -->
+      Designed by <a href="#">IT Department of AACP</a>
+    </div>
+  </div>
+</footer><!-- End Footer -->
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
