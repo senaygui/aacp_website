@@ -3,7 +3,7 @@
 lock "~> 3.17.1"
 
 set :application, "aacp_website"
-set :repo_url, "https://github.com/senaygui/premier_website.git"
+set :repo_url, "https://github.com/senaygui/aacp_website.git"
 # set :ssh_options, { :forward_agent => true, :port => 4321 }
 set :user, "deploy"
 set :passenger_restart_with_touch, true
