@@ -28,15 +28,15 @@
       <li><a href="#">Instructions</a></li>
       <li><a href="#">Requirements</a></li>
       <li><a href="assets/1.mp4">Tutorial videos</a></li>
-      <li><a href="assets/structure.pdf">Structure</a></li>
+      <li><a href="<%= asset_path('structure.pdf')%>">Structure</a></li>
     </ul>
   </li>
   <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
   <li class="dropdown"><a href="/"><span>Language</span> <i class="bi bi-chevron-down"></i></a>
    <ul>
-    <li><a href="index.html">English</a></li>
-    <li><a href="index_amharic.html">Amharic</a></li>
-    <li><a href="index_oromia.html">Oromic</a></li>
+    <li><%= link_to "English", root_path%></li>
+    <li><%= link_to "Amharic", amharic_home%></li>
+    <li><%= link_to "Oromic", oromo_home%></li>
   </ul>
 </ul>
 <i class="bi bi-list mobile-nav-toggle"></i>
