@@ -1,7 +1,7 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top header-inner-pages">
     <div class="container d-flex align-items-center justify-content-between">
-     <%= image_tag "logo1.png", size: "70x70", align:"left"%>
+     <%= image_tag "logo_new.png", size: "70x70", align:"left"%>
      <h6 style="color:white;">የአዲስ አበባ ግንባታ ፈቃድና ቁጥጥር ባለሥልጣን</h6>
      <!-- Uncomment below if you prefer to use an image logo -->
      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
@@ -16,19 +16,19 @@
         <li class="dropdown"><a href="#"><span>ማስታወቂያዎች</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
 
-           <li><a href="#">ዜና</a></li>
-           <li><a href="#">ክስተቶች</a></li>
-           <li><a href="#">ክፍት የስራ ቦታ</a></li>
+           <li><%= link_to "ዜና", news_index_path%></li>
+           <li><%= link_to "ክስተቶች", events_path%></li>
+           <li><%= link_to "ክፍት የስራ ቦታ", vacancies_path%></li>
            <li><a href="#">ጨረታ</a></li>
          </ul>
        </li>
        <li class="dropdown"><a href="#"><span>ምንጭ</span> <i class="bi bi-chevron-down"></i></a>
         <ul>
-          <li><a href="#">ማመልከቻ ቅፆች</a></li>
-          <li><a href="#">መመሪያ</a></li>
-          <li><a href="#">አስፈላጊ መስፈርቶች</a></li>
-          <li><a href="assets/1.mp4">አጋዥ ቪዲዮዎች</a></li>
-          <li><a href="<%= asset_path('slide-4.jpg')%>">መዋቅር</a></li>
+          <li><a href="#https://drive.google.com/file/d/1xncfxGnl0fr8vOpRd4MIx7ux7UAjcBkq/view?usp=sharing">ማመልከቻ ቅፆች</a></li>
+          <li><a href="#https://drive.google.com/file/d/1jj2WUjbczTWQ5zcXXkA9DKU7LNNwLNjQ/view?usp=sharing">መመሪያ</a></li>
+          <li><a href="#https://drive.google.com/file/d/1hinjsSWX0AQxF84KOxB8LQpJ4OefcAyr/view?usp=sharing">አስፈላጊ መስፈርቶች</a></li>
+          <li><a href="https://www.youtube.com/watch?v=UNpCbDuDuLE">አጋዥ ቪዲዮዎች</a></li>
+          <li><a href="https://drive.google.com/file/d/1djawfKIIKAlxQSmPSuLamaBs_5arR2Cb/view">መዋቅር</a></li>
         </ul>
       </li>
       <li><a class="nav-link scrollto" href="#contact">አድራሻ</a></li>
