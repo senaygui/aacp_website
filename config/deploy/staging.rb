@@ -1,6 +1,6 @@
-role :app, %w{deploy@162.19.228.226}
-role :web, %w{deploy@162.19.228.226}
-role :db, %w{deploy@162.19.228.226}, :primary => true
+role :app, %w{deploy@51.89.9.139}
+role :web, %w{deploy@51.89.9.139}
+role :db, %w{deploy@51.89.9.139}, :primary => true
 set :branch, "master"
 set :rails_env, "staging"
 set :deploy_to, '/home/deploy/aacp_website'
